@@ -1,0 +1,57 @@
+.flex-container {
+    text-align: center;
+    height: 800px;
+    flex: 1 2 auto;
+}
+
+.flex-container div {
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+body {
+    background-color:#EAE4DF;
+}
+
+p {
+    color: #2e394f;
+    font-size: x-large;
+}
+
+h1 {
+    color:#F32615;
+}
+
+button {
+    background-color: #963a47;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 110px;
+    height: 45px;
+    
+    
+}
+
+.options {
+    padding-top: 50px;
+
+}
+
+.scoreRecords {
+    padding: 25px;
+    display: inline-block;
+
+}
+
+.announcement {
+    padding-top: 45px;
+}
+
+#userScore {
+    display: inline;
+}

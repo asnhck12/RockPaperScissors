@@ -3,8 +3,33 @@
 <head>
   <meta charset="utf-8">
   <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 <body>
-    <script src="JavaScript/RockPaperScissors.js"></script>
+    <script src="JavaScript/RockPaperScissors.js" defer></script>
+    <main class="flex-container">
+      <div class="title">
+        <h1 id="gameTitle">Rock | Paper | Scissors</h1>
+      </div>
+      <div class="scoreRecords"><span>
+        <p><span>User Score:</span> <span id="userScore">0</span></p>
+        <p><span>Computer Score:</span> <span id="computerScore">0</span></p>
+      </div>
+      
+      <div class="options">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+      </div>
+      <br>
+
+      <div class="restartButton">
+        <button id="restart">Restart</button>
+      </div>
+
+      <p id="announcement"></p>
+
+    </main>
+
 </body>
 </html>
